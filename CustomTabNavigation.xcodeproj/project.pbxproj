@@ -34,6 +34,7 @@
 		2557E182235487CE00B6A1B7 /* CalenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderViewController.swift; sourceTree = "<group>"; };
 		2557E1842354880C00B6A1B7 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
 		2557E1862354883200B6A1B7 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		4BF0E1F128B11BF7001EF7AD /* CustomTabNavigation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CustomTabNavigation.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +67,7 @@
 		2524AD29234E3169002ADE9B /* CustomTabNavigation */ = {
 			isa = PBXGroup;
 			children = (
+				4BF0E1F128B11BF7001EF7AD /* CustomTabNavigation.entitlements */,
 				2557E17F235487A600B6A1B7 /* Controllers */,
 				2524AD3C234E33B1002ADE9B /* Navigation Menu */,
 				2524AD2A234E3169002ADE9B /* AppDelegate.swift */,
@@ -322,6 +324,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CustomTabNavigation/CustomTabNavigation.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M684FYCYG6;
 				INFOPLIST_FILE = CustomTabNavigation/Info.plist;
@@ -331,6 +334,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sprinthubmobile.CustomTabNavigation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -340,6 +344,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CustomTabNavigation/CustomTabNavigation.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M684FYCYG6;
 				INFOPLIST_FILE = CustomTabNavigation/Info.plist;
@@ -349,6 +354,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sprinthubmobile.CustomTabNavigation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
